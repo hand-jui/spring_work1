@@ -17,6 +17,12 @@ import com.example.demo6.dto.User;
 @Validated // 하나씩 key=value 검사하려면 명시해야함. 단, (get)dto 방식은 예외
 public class ApiController {
 
+	@GetMapping("/test")
+	public String test() {
+		
+		return "TEST";
+	}
+
 //	유효성 검사 동작하도록 코드 변경 하시오
 	@GetMapping("/user")
 	public User get(@RequestParam String name, @RequestParam Integer age) {
