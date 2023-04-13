@@ -7,7 +7,6 @@
 </head>
 <body>
 	<h1>로그인 화면</h1>
-
 	<form action="/loginProc" method="post">
 		<input type="text" name="username" value="쥥">
 		<input type="password" name="password" value="쥥">
