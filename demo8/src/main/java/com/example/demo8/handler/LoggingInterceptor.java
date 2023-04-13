@@ -38,5 +38,4 @@ public class LoggingInterceptor implements HandlerInterceptor {
 			throws Exception {
 		HandlerInterceptor.super.afterCompletion(request, response, handler, ex);
 	}
-
 }

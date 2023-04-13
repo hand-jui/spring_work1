@@ -12,5 +12,4 @@ public class PublicController {
 		System.out.println("Controller에서 메서드 실행");
 		return "hello";
 	}
-
 }

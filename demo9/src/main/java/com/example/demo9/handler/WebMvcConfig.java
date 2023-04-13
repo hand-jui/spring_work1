@@ -19,7 +19,5 @@ public class WebMvcConfig implements WebMvcConfigurer {
 //		http://localhost:8080/hello <-- interceptor 동작하지 않음
 //		http://localhost:8080/mypage/myinfo <-- interceptor 동작
 		registry.addInterceptor(authInterceptor).addPathPatterns("/mypage/**");
-
 	}
-
 }
