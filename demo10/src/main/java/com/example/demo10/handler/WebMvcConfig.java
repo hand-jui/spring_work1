@@ -13,6 +13,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
+		
 //		규칙
 //		주소요청이 /auth/** 이 붙으면 AuthInterceptor 동작하도록 구현처리
 		registry.addInterceptor(authInterceptor).addPathPatterns("/auth/**");

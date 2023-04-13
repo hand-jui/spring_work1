@@ -24,7 +24,6 @@ public class AuthInterceptor implements HandlerInterceptor {
 			response.sendRedirect("/loginPage");
 			return false;
 		}
-
 		return true;
 	}
 }

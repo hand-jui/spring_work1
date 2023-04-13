@@ -26,7 +26,6 @@ public class UserController {
 		
 		session.setAttribute("principal", principal);
 		
-		
 		return "redirect:/auth/infoPage";
 	}
 
